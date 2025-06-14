@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="10" alignment="CENTER" xmlns:fx="http://javafx.com/fxml" fx:controller="controller.AddBookController">
+    <Label text="Tambah Buku Baru"/>
+    <TextField fx:id="isbnField" promptText="ISBN"/>
+    <TextField fx:id="titleField" promptText="Judul Buku"/>
+    <TextField fx:id="authorField" promptText="Penulis"/>
+    <TextField fx:id="quantityField" promptText="Jumlah"/>
+    <Button text="Tambah Buku" onAction="#handleAddBook"/>
+</VBox>
